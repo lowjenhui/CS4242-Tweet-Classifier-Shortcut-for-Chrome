@@ -12,6 +12,7 @@ Currently the keys are set to do the following actions on keydown:
 	4: set sentiment to "sensitive" and submit form
 	
 	c: opens a dialog box that allows you to copy the twitter link (I kinda have to ask my friends most of the time, honestly I think a computer would be better than me at classifying sentiments zzz)
+	o: opens up twitter link (Images can get cut/want to check more info about the person who posted the tweet)
 
 Oh~ and this only works on Chrome :)
 Poke me on facebook if you need any help with this.

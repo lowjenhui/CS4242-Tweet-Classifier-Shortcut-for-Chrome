@@ -55,5 +55,13 @@ $(document).on('keydown', function (e) {
 	window.prompt("Copy to clipboard: Ctrl+C, Enter", link);
 	document.execCommand('copy');
   }
+  
+  // Key combination to open the tweet url in a new tab zzz 'O'
+  var openlink = (keyPressed === 'O');
+  if (openlink) {
+	console.log("opens tweet link in a new tab");  
+	var link = document.querySelector('a').href;
+	window.open(link, "_blank");
+  }
 
 });
