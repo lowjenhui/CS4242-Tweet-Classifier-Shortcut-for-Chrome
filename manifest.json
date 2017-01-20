@@ -1,0 +1,17 @@
+{
+  "name": "CS4242 Classifying Shortcuts",
+  "version": "1.0",
+  "description": "Allows classifying of tweets via keyboard shortcuts.",
+  "manifest_version": 2,
+  "content_scripts": [
+	{
+	  "matches": ["http://evil-git.com:5000/*"],
+	  "js": ["jquery-3.1.1.min.js", "classify_shortcuts.js"],
+	  "run_at": "document_end"
+	}
+  ],
+  "permissions": [
+	"activeTab",
+	"http://evil-git.com:5000/*"
+  ]
+}
